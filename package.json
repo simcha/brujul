@@ -1,0 +1,19 @@
+{
+  "name": "brujul",
+  "version": "1.0.0",
+  "description": "Nauka testowania",
+  "main": "index.js",
+  "author": "Jan Topiński",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "chromedriver": "^81.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "scripts": {
+    "test": "mocha --recursive --timeout 10000 test.js"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  }
+}
